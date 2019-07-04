@@ -13,3 +13,27 @@ sudo service jenkins start
 sudo service jenkins status
 sudo service jenkins stop
 ```
+
+#### Check Java Version
+```
+java -version
+```
+Note: Uninstall JDK 7
+```
+sudo yum remove java-1.7.0-openjdk
+```
+#### Install JDK 8
+```
+sudo yum install java-1.8.0-openjdk-devel
+```
+#### Check Java Version
+```
+java -version
+```
+
+#### Install Git
+```
+sudo yum install git -y
+```
+
+
