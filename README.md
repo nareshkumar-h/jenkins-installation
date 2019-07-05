@@ -36,4 +36,7 @@ java -version
 sudo yum install git -y
 ```
 
-
+#### Install Plugins (Manage Jenkins -> Plugins )
+* Maven Integration plugin
+* Deploy to container Plugin ( This plugin allows you to deploy a war to a container after a successful build. )
+* GitHub Integration Plugin
